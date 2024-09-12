@@ -2,9 +2,9 @@ import React from 'react'
 import '../footer/Footer.scss'
 const Footer = () => {
   return (
-    <div className='footer'>
-        <div className="fLists">
-            <ul className="fList">
+    <div className='footerr'>
+        <div className="fListss">
+            <ul className="fLists">
                 <li className="fListItem">Countries</li>
                 <li className="fListItem">Region</li>
                 <li className="fListItem">Cities</li>
@@ -12,7 +12,7 @@ const Footer = () => {
                 <li className="fListItem">Airports</li>
                 <li className="fListItem">Hotels</li>
             </ul>
-            <ul className="fList">
+            <ul className="fLists">
                 <li className="fListItem">Countries</li>
                 <li className="fListItem">Region</li>
                 <li className="fListItem">Cities</li>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <li className="fListItem">Airports</li>
                 <li className="fListItem">Hotels</li>
             </ul>
-            <ul className="fList">
+            <ul className="fLists">
                 <li className="fListItem">Countries</li>
                 <li className="fListItem">Region</li>
                 <li className="fListItem">Cities</li>

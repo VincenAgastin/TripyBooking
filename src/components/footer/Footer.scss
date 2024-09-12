@@ -1,45 +1,41 @@
-.footer {
-    width: 100%;
-    max-width: 1024px;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .fLists {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    align-items: flex-start; /* Align items at the start on smaller screens */
-    justify-content: space-between;
-    margin-bottom: 50px;
-  }
-  
-  .fList {
-    list-style: none;
-    padding: 0;
-    width: 20%; /* Default width for each list item */
-    margin-bottom: 20px;
-  }
-  
-  .fListItem {
-    margin-bottom: 10px;
-    color: #3c096c;
-    cursor: pointer;
-  }
-  
-  .fListItem:hover {
-    color: #b5179e;
-  }
-  
-  .fText {
-    width: 100%;
-    text-align: center;
-    font-size: 14px; /* Adjusted font size */
-    padding: 10px 0; /* Added padding for better spacing */
-  }
+.footerr {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+
+.fListss {
+  display: flex;
+  flex-direction: row; /* Aligns items in a row */
+  justify-content: space-between; /* Spaces out items evenly */
+  flex-wrap: wrap; /* Allows wrapping if items don't fit in one row */
+}
+
+.fLists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1; /* Ensures each list item takes equal space */
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: #3c096c;
+  cursor: pointer;
+}
+
+.fListItem:hover {
+  color: #b5179e;
+}
+
+.fText {
+  width: 100%;
+  text-align: center;
+  color: #3c096c;
+  margin-top: 10px;
+  font-size: 12px; /* Adjust as needed */
+}
+
   
   /* Media Query for Mobile Devices */
   @media (max-width: 768px) {
