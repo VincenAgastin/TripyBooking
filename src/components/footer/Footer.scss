@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .fLists {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    align-items: flex-start; /* Align items at the start on smaller screens */
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList {
+    list-style: none;
+    padding: 0;
+    width: 20%; /* Default width for each list item */
+    margin-bottom: 20px;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: #3c096c;
+    cursor: pointer;
+  }
+  
+  .fListItem:hover {
+    color: #b5179e;
+  }
+  
+  .fText {
+    width: 100%;
+    text-align: center;
+    font-size: 14px; /* Adjusted font size */
+    padding: 10px 0; /* Added padding for better spacing */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .fLists {
+      flex-direction: column; /* Stack lists vertically on mobile */
+      align-items: center; /* Center align items on mobile */
+    }
+  
+    .fList {
+      width: 50%; /* Make each list take 80% width on mobile */
+      margin-bottom: 15px; /* Adjust bottom margin for better spacing */
+    }
+  }
+  
